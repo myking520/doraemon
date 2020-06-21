@@ -2,3 +2,33 @@
 /doraemon-ui/.idea/
 /doraemon-ui/public/
 
+
+
+/doraemon-server/HELP.md
+/doraemon-server/.gradle
+/doraemon-server/build/
+/doraemon-server/!gradle/wrapper/gradle-wrapper.jar
+/doraemon-server/!**/src/main/**
+/doraemon-server/!**/src/test/**
+### STS ###
+/doraemon-server/.apt_generated
+/doraemon-server/.classpath
+/doraemon-server/.factorypath
+/doraemon-server/.project
+/doraemon-server/.settings
+/doraemon-server/.springBeans
+/doraemon-server/.sts4-cache
+/doraemon-server/### IntelliJ IDEA ###
+/doraemon-server/.idea
+/doraemon-server/*.iws
+/doraemon-server/*.iml
+/doraemon-server/*.ipr
+/doraemon-server/out/
+### NetBeans ###
+/doraemon-server//nbproject/private/
+/doraemon-server//nbbuild/
+/doraemon-server//dist/
+/doraemon-server//nbdist/
+/doraemon-server//.nb-gradle/
+### VS Code ###
+/doraemon-server/.vscode/
