@@ -1,4 +1,4 @@
-package com.myking520.doraemon.codegeneration.infrastructure.result;
+package com.myking520.doraemon.codegeneration.interfaces.dto;
 
 public class ApiResult<T> {
     private int code;
