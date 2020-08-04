@@ -5,13 +5,13 @@ import com.myking520.doraemon.codegeneration.interfaces.dto.project.input.Projec
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.myking520.doraemon.codegeneration.interfaces.dto.ApiResult;
-@RestController
+@RestController()
 @RequestMapping("/project")
 public class ProjectController {
     @Autowired
     private IProjectService projectService;
     @PostMapping("/save")
-    public ApiResult save(ProjectAddDTO projectAddDTO){
+    public ApiResult save(@RequestBody  ProjectAddDTO projectAddDTO){
         projectService.add(projectAddDTO);
         return ApiResult.sucess();
     }

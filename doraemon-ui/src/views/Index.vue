@@ -1,7 +1,8 @@
 <template>
   <div class="dashboard-editor-container">
     <el-container>
-      <el-header align="right">
+      <el-header>
+        <div>
         <el-dropdown>
           <span>
         <i class="el-icon-arrow-down el-icon--right" ></i>
@@ -13,7 +14,7 @@
           <el-dropdown-item>退出</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
-
+        </div>
       </el-header>
       <el-container>
         <el-aside >
